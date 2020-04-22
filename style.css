@@ -24,3 +24,37 @@ html, body{
 #radius{
     margin-left:2rem;
 }
+
+.form-group{
+    margin-left: 5rem;
+}
+
+.latlong-view{
+    margin-left: 5rem;
+}
+
+td {
+	border: 1px solid #333;
+	height: 250px;
+	width: 250px;
+	text-align: center;
+	vertical-align: middle;
+	font-family: "Century Gothic", cursive, sans-serif;
+	font-size: 13px;
+	cursor: pointer; 
+    border-radius: 0.2rem;
+
+}
+
+table {
+	position: relative;
+	left:5%;
+    align-content: center;
+
+    border-spacing: 100px 50px;
+    border-collapse: separate;
+        
+
+    }
+
+
