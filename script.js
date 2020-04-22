@@ -14,6 +14,7 @@ var long = -79.415550
 
 
 function initialize() {
+    
    clearList()
     var center = new google.maps.LatLng(lat,long)
     map = new google.maps.Map(document.getElementById('map'), {
@@ -78,7 +79,7 @@ function callback2(results, status) {
         }
     }
     //console.log("end")
-    deleteRepeat()
+  //  deleteRepeat()
     sortSizes()
     display() //displays store info in screen
     addListener() 
@@ -94,21 +95,18 @@ function createMarker(place) {
 
 google.maps.event.addDomListener(window, 'load', initialize)
 
-
 function display(){
     for (var i = 0; i < names.length; i++){
         if(names[i]==null){
             break
         }
-        cells[i].innerText = `${names[i]} ${storeId[i]}`
-     // console.log(names[i])
+        cells[i].innerText = `${names[i]}`
+        console.log(names[i])
     //  console.log(storeId[i])
 
 
     }
 }
-
-
 function addListener(){
     searchForm.addEventListener('submit', e=> {
         e.preventDefault()
@@ -170,3 +168,4 @@ function deleteRepeat(){
     let findDuplicates = arr => arr.filter((item, index) => arr.indexOf(item) != index)
   //  console.log(findDuplicates(storeId)) // All duplicates
 }
+
