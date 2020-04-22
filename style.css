@@ -13,16 +13,14 @@ html, body{
   
 }
 
-#store-container{
-    justify-content: center;
-}
+
 
 #search-container{
-    margin: 2rem;
+    margin-left: 5rem;
 }
 
 #radius{
-    margin-left:2rem;
+    margin-left:1rem;
 }
 
 .form-group{
