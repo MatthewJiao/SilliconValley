@@ -1,0 +1,26 @@
+html, body{
+    height: 80%;
+    
+    margin: 0px;
+    padding: 0px;
+}
+
+#map{
+    height: 80%;
+    margin: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  
+}
+
+#store-container{
+    justify-content: center;
+}
+
+#search-container{
+    margin: 2rem;
+}
+
+#radius{
+    margin-left:2rem;
+}
